@@ -64,7 +64,7 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 .home {
-  background-color: rgba(248,248,248, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .top-wrapper {
@@ -135,14 +135,13 @@ header {
 }
 
 .aboutus-wrapper {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 60px;
   background-color: #F5E1C5;
 }
-.about-us .heading {
-  font-family: "Marker Felt", "fantasy";
-  font-weight: normal;
-  background-color:
+.about-us .heading h2 {
+  font-family: Palatino, "URW Palladio L", serif;
+  font-weight: bold;
 }
 .about-us img {
   display: block;
@@ -157,16 +156,28 @@ header {
   text-align: center;
   margin-left: 170px;;
   margin-top: 50px;
+  font-family: Palatino, "URW Palladio L", serif;
+  line-height: 30px;
+  font-size: 20px;
 }
 
 .catalog-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+  background-image: url('background image catalog wrapper 4.jpg');
+  background-size: cover;
+  color: white;
+}
+.section-title {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 15px;
 }
 .heading h2 {
   text-align: center;
-  margin-top: 50px;
+  padding-top: 50px;
+  font-family: Palatino, "URW Palladio L", serif;
+  font-weight:bold;
 }
 .product {
   float: left;
@@ -174,22 +185,29 @@ header {
   align: center;
   margin-top: 50px;
 }
+.product-icon img {
+  margin-bottom: 20px;
+}
 .product-icon p {
-  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 2px;
+  letter-spacing: 1px;
   text-align:center;
-  font-family: "Arial", "sans-serif";
+  font-family: Palatino, "URW Palladio L", serif;
   width: 80%;
   display: inline-block;
+  background-color:rgba(0,0,0, 0.5);
 }
 .buy {
   margin-top: 10px;
   background-color: #ADD8E6;
   color:#151B54;
   cursor: pointer;
-  font-family:"Comic Sans MS", "Comic Sans", "cursive";
+  font-family: Palatino, "URW Palladio L", serif;
 }
 .shopping {
-  font-family:"Comic Sans MS", "Comic Sans", "cursive";
+  font-family: Palatino, "URW Palladio L", serif;
   background-color: #737CA1;
   margin-top: 40px;
   padding: 15px 40px;
@@ -200,4 +218,30 @@ header {
   box-shadow: none;
   position: relative;
   top: 7px;
+}
+
+.contact-form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fffdd0;
+}
+.contact-form .section-title {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 15px;
+}
+.contact-form p {
+  margin-top: 30px;
+  font-size:20px;
+}
+input, textarea {
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+.contact-submit {
+  background-color:#d4caa3;
+  color:#000;
 }
