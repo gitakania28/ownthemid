@@ -1,7 +1,7 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
   .header-left h3 {
-    font-size: 28px;
+    font-size: 25px;
   }
   .header-right {
     font-size: 18px;
