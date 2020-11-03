@@ -34,4 +34,10 @@
   .btn-wrapper p {
     font-size: 13px;
   }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
 }
