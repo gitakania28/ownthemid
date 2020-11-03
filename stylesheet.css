@@ -48,7 +48,7 @@ header {
   float: right;
   transition: all 0.5s;
   font-size:18px;
-  font-family:"Snell Roundhand", cursive;
+  font-family:"Snell Roundhand";
   padding-top:20px;
   padding-bottom:20px;
 }
