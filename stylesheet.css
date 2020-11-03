@@ -35,10 +35,10 @@ header {
 .header-logo {
   float:left;
 }
-.header-left {
+.header-left h3{
   font-size:36px;
   float:left;
-  padding-top:20px;
+  padding-top:25px;
   padding-bottom:20px;
   padding-right:40px;
   padding-left:20px;
@@ -152,10 +152,11 @@ header {
 }
 .about-us p {
   width: 70%;
-  display: inline-block;
+  display: block;
   text-align: center;
-  margin-left: 170px;;
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Palatino, "URW Palladio L", serif;
   line-height: 30px;
   font-size: 20px;
