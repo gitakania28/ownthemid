@@ -41,4 +41,22 @@
     display: block;
     color: #000;
   }
+  .top-wrapper h2 {
+    font-size: 25px;
+  }
+  .top-wrapper h1 {
+    font-size: 35px;
+    margin-left:70px;
+    margin-right:70px;
+  }
+  .product {
+    width:100%;
+  }
+  .contact-form {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contact-form .section-title {
+    text-align:center
+  }
 }
