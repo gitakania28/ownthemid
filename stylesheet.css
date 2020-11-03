@@ -48,7 +48,7 @@ header {
   float: right;
   transition: all 0.5s;
   font-size:18px;
-  font-family:"Lucida Console";
+  font-family:"Snell Roundhand", cursive;
   padding-top:20px;
   padding-bottom:20px;
 }
@@ -244,4 +244,18 @@ input, textarea {
 .contact-submit {
   background-color:#d4caa3;
   color:#000;
+}
+
+footer {
+  background-color: rgb(92,225,230);
+  color: white;
+  font-family: "Century Gothic";
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+footer p {
+  opacity: 0.8;
+  float: right;
+  padding-top: 35px;
+  font-size: 18px;
 }
