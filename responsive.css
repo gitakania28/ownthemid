@@ -1,10 +1,10 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
   .header-left h3 {
-    font-size: 25px;
+    font-size: 28px;
   }
   .header-right {
-    font-size: 13px;
+    font-size: 18px;
   }
   .top-wrapper h2 {
     font-size: 35px;
