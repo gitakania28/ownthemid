@@ -66,6 +66,13 @@ header {
 .home {
   background-color: rgba(255, 255, 255, 0.5);
 }
+.menu-icon {
+  color: #000000;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
 
 .top-wrapper {
   padding-top: 180px;
@@ -258,4 +265,5 @@ footer p {
   float: right;
   padding-top: 35px;
   font-size: 18px;
+  opacity:0.8;
 }
